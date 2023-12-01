@@ -43,7 +43,7 @@ body {
 }
 
 #countdown-display {
-    color: var(--wine-red);
+    color: #e10c47;
     text-shadow: 2px 2px 5px rgba(255, 255, 255, 0.8);
     font-weight: bolder;
     animation: upAndDown 1s infinite alternate;
