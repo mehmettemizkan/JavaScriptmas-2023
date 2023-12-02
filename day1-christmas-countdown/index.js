@@ -26,12 +26,12 @@ let x = setInterval(function () {
     const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
     const seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
-    // Output the result in an element with id="demo"
-    document.getElementById("countdown-display").innerHTML = `${days} days ${hours} hours <br>${minutes} minutes ${seconds} seconds`
+    // Output the result in an element with id="countdown-display"
+    document.getElementById("countdown-display").innerHTML = `${days} days ${hours} hours<br>${minutes} mins ${seconds} secs`
 
-    // If the count down is over, write some text 
+    // If the count down is over, celebrate christmas 
     if (distance < 0) {
         clearInterval(x);
-        document.getElementById("countdown-display").innerHTML = "EXPIRED";
+        document.getElementById("countdown-display").innerHTML = "MERRY CHRISTMAS!";
     }
 }, 1000);

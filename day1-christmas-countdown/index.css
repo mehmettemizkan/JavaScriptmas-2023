@@ -15,8 +15,14 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 100vh;
     text-align: center;
+    height: 100vh;
+    background-image: url("img/background.png");
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 h1 {
@@ -26,20 +32,10 @@ h1 {
     text-shadow: 2px 2px 5px var(--wine-red);
 }
 
-.bg {
-    background-image: url("img/background.png");
-    height: 100vh;
-
-    /* Center and scale the image nicely */
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
 .container {
     display: flex;
     flex-direction: column;
-    width: 500px;
+    max-width: 430px;
 }
 
 #countdown-display {
@@ -47,8 +43,8 @@ h1 {
     text-shadow: 2px 2px 5px var(--snow);
     font-weight: bolder;
     animation: upAndDown 1s infinite alternate;
-    font-size: 50px;
-    margin: 15px 0 25px 0;
+    font-size: 45px;
+    margin: 13px 0 25px 0;
 }
 
 @keyframes upAndDown {
