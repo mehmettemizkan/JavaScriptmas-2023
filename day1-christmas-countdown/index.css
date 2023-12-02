@@ -1,9 +1,6 @@
 :root {
-    --wine-red: #C7375F;
-    --bright-red: #D42D2F;
-    --dark-green: #344D2F;
-    --light-green: #77A047;
-    --gold: #FAC57D;
+    --wine-red: rgba(199, 55, 95, 0.8);
+    --bright-red: #E10C47;
     --snow: #F0F4F7;
 }
 
@@ -22,6 +19,13 @@ body {
     text-align: center;
 }
 
+h1 {
+    color: var(--snow);
+    margin-bottom: 0;
+    margin-top: 0px;
+    text-shadow: 2px 2px 5px var(--wine-red);
+}
+
 .bg {
     background-image: url("img/background.png");
     height: 100vh;
@@ -36,31 +40,15 @@ body {
     display: flex;
     flex-direction: column;
     width: 500px;
-    color: var(--snow);
-    padding: 1em 2em;
-    border-radius: 8px;
-    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
 }
 
 #countdown-display {
-    color: #e10c47;
-    text-shadow: 2px 2px 5px rgba(255, 255, 255, 0.8);
+    color: var(--bright-red);
+    text-shadow: 2px 2px 5px var(--snow);
     font-weight: bolder;
     animation: upAndDown 1s infinite alternate;
     font-size: 50px;
     margin: 15px 0 25px 0;
-    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
-}
-
-.countdown-text {
-    margin: 0 0 15px 0;
-}
-
-h1 {
-    color: var(--snow);
-    margin-bottom: 0;
-    margin-top: 0px;
-    text-shadow: 2px 2px 5px rgba(199, 55, 95, 0.8);
 }
 
 @keyframes upAndDown {
