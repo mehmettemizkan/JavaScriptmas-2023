@@ -2,6 +2,11 @@
     --wine-red: rgba(199, 55, 95, 0.8);
     --bright-red: #E10C47;
     --snow: #F0F4F7;
+    --black: #000;
+    --white: #fff;
+    --btn-color: #cbcbcb;
+    --grad-color1: #eeaf61;
+
 }
 
 html,
@@ -32,10 +37,30 @@ h1 {
     text-shadow: 2px 2px 5px var(--wine-red);
 }
 
+canvas {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: block;
+    pointer-events: none;
+    /* Canvas üzerindeki olayları pas geçmek için */
+}
+
+.content {
+    /* Diğer içeriklere uygun stil verilebilir */
+    position: relative;
+    z-index: 2;
+    /* Canvas'ın üstünde olmasını sağla */
+}
+
 .container {
     display: flex;
     flex-direction: column;
     max-width: 430px;
+    position: relative;
+    z-index: 1;
 }
 
 #countdown-display {
@@ -51,4 +76,22 @@ h1 {
     to {
         transform: translateY(10px);
     }
+}
+
+#fireworksToggle {
+    margin: 20px auto;
+    padding: 12px;
+    font-size: 24px;
+    background-color: var(--black);
+    color: var(--white);
+    border: 5px solid;
+    border-image-slice: 1;
+    border-image-source: linear-gradient(115deg, var(--bright-red), var(--grad-color1));
+    font-family: 'Times';
+}
+
+#fireworksToggle:hover {
+    border-image-source: linear-gradient(-115deg, var(--bright-red), var(--grad-color1));
+    scale: 1.075;
+    color: var(--btn-color);
 }
