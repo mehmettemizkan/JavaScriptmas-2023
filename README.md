@@ -3,19 +3,42 @@
 JavaScriptmas 2023 - 24 Days of Coding Challenges
 
 ## Day 1: Countdown to Christmas
-<img width="868" alt="Day 1: Countdown to Christmas" src="https://github.com/mehmettemizkan/JavaScriptmas-2023/assets/56386597/ccc4940b-2d0e-4ad3-b8c2-d8ffdf4bf900">
+### Task:
+- Get today's date (you only need the day).
+- Calculate remaining days.
+- Display remaining days in countdownDisplay.
+### Stretch goals:
+- Display hours, minutes, seconds.
+- Add a countdown for another festival, your birthday, or Christmas 2022.
+<br> <br>
 
 
 ## Day 2: Style a Colorful Button
 
-<img width="797" alt="Ekran Resmi 2023-12-03 12 34 49" src="https://github.com/mehmettemizkan/JavaScriptmas-2023/assets/56386597/793d81c3-c346-493d-bc8a-10052758fcbb">
+### Requirements
+* Gradient Border
+  * Use provided colors or choose your own.
+  * Gradient is 15 degrees.
+* Hover State
+  * Gradient colors flip horizontally
+  * Button grows slightly in size
+  * The text changes from gray to white
+* Center button on page
 
 ## Here is the output of my solution of the Day 1 & Day 2 Challenges
-![christmas-countdown](https://github.com/mehmettemizkan/JavaScriptmas-2023/assets/56386597/7d212789-f8a7-4292-99a9-bb298081c861)
+![christmas-countdown](https://github.com/mehmettemizkan/JavaScriptmas-2023/assets/56386597/7d212789-f8a7-4292-99a9-bb298081c861) <br> <br>
 
 ## Day 3: Divide Candy
+### Challenge:
+ * Some children have got some pieces of candy. They 
+ * want to eat as much candy as they can but each 
+ * child must eat exactly the same amount. Determine 
+ * how many pieces of candy can be eaten altogether. 
+ * A piece of candy can not be split.
 
-<img width="876" alt="Ekran Resmi 2023-12-03 12 36 29" src="https://github.com/mehmettemizkan/JavaScriptmas-2023/assets/56386597/cf7f899d-7ca7-4729-8153-110567b6d09e">
 
+My Solution: https://github.com/mehmettemizkan/JavaScriptmas-2023/tree/master/Day3 <br> <br>
 
-My Solution: https://github.com/mehmettemizkan/JavaScriptmas-2023/tree/master/Day3
+## Day 4 AI Christmas Joke Generator
+**Task:** Use AI to generate a one-line Christmas joke. <br>
+![joke-generator](https://github.com/mehmettemizkan/JavaScriptmas-2023/assets/56386597/c655c6d2-8f27-486a-9c82-3477aa2e86aa)
