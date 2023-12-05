@@ -22,7 +22,7 @@ body {
     align-items: center;
     text-align: center;
     height: 100vh;
-    background-image: url("img/background.png");
+    background-image: url("../assets/img/background.png");
 
     /* Center and scale the image nicely */
     background-position: center;
@@ -55,7 +55,7 @@ canvas {
     /* Canvas'ın üstünde olmasını sağla */
 }
 
-.container {
+.countdown-container {
     display: flex;
     flex-direction: column;
     max-width: 430px;

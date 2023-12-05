@@ -1,0 +1,285 @@
+/* Box sizing rules */
+*,
+*::before,
+*::after {
+        box-sizing: border-box;
+}
+
+/* Remove default margin */
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+figure,
+blockquote,
+dl,
+dd {
+        margin: 0;
+}
+
+/* Remove list styles on ul, ol elements with a list role, which suggests default styling will be removed */
+ul[role="list"],
+ol[role="list"] {
+        list-style: none;
+}
+
+/* Set core root defaults */
+html:focus-within {
+        scroll-behavior: smooth;
+}
+
+/* A elements that don't have a class get default styles */
+a:not([class]) {
+        text-decoration-skip-ink: auto;
+}
+
+/* Make images easier to work with */
+img,
+picture {
+        max-width: 100%;
+        display: block;
+}
+
+/* Inherit fonts for inputs and buttons */
+input,
+button,
+textarea,
+select {
+        font: inherit;
+}
+
+/* Remove all animations, transitions and smooth scroll for people that prefer not to see them */
+@media (prefers-reduced-motion: reduce) {
+        html:focus-within {
+                scroll-behavior: auto;
+        }
+
+        *,
+        *::before,
+        *::after {
+                animation-duration: 0.01ms !important;
+                animation-iteration-count: 1 !important;
+                transition-duration: 0.01ms !important;
+                scroll-behavior: auto !important;
+        }
+}
+
+/* end of css reset */
+
+:root {
+        --radius: 5px;
+        --main-frame: 15px solid white;
+        --wine-red: rgba(199, 55, 95, 0.8);
+        --bright-red: #E10C47;
+        --snow: #F0F4F7;
+        --black: #000;
+        --white: #fff;
+        --btn-color: #cbcbcb;
+        --grad-color1: #eeaf61;
+}
+
+* {
+        box-sizing: border-box;
+}
+
+html,
+body {
+        margin: 0;
+        padding: 0;
+        padding-top: 10px;
+}
+
+body {
+        min-height: 100vh;
+        text-rendering: optimizeSpeed;
+        line-height: 1.5;
+        background-image: url(../assets/img/background.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        display: flex;
+        height: 100%;
+        align-items: center;
+}
+
+.container {
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+        position: relative;
+        padding: 0;
+}
+
+
+h1 {
+        margin-bottom: 0;
+        margin-top: 0px;
+        color: var(--snow);
+        text-shadow: 2px 2px 5px var(--wine-red);
+        text-align: center
+}
+
+#subtitle {
+        color: var(--snow);
+        text-shadow: 2px 2px 5px var(--wine-red);
+}
+
+h3,
+p {
+        text-align: center;
+}
+
+main {
+        display: flex;
+        margin: 1em auto;
+        position: relative;
+        padding: 0;
+}
+
+img {
+        height: 450px;
+        display: block;
+}
+
+.left-door {
+        border: var(--main-frame);
+        border-right: 0;
+        border-top-left-radius: var(--radius);
+        border-bottom-left-radius: var(--radius);
+}
+
+.left-door img {
+        border-right: 0;
+        border-top-left-radius: var(--radius);
+        border-bottom-left-radius: var(--radius);
+}
+
+.right-door {
+        border: var(--main-frame);
+        border-left: 0;
+        border-top-right-radius: var(--radius);
+        border-bottom-right-radius: var(--radius);
+}
+
+.right-door img {
+        border-left: 0;
+        border-top-right-radius: var(--radius);
+        border-bottom-right-radius: var(--radius);
+}
+
+.joke-display {
+        position: absolute;
+        background-color: rgba(255, 255, 255, 0.5);
+
+        opacity: 0;
+        left: 0;
+        right: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        border: var(--main-frame);
+        height: 100%;
+        padding: 1em;
+        cursor: pointer;
+        font-size: 1rem;
+}
+
+.close-door-el {
+        display: flex;
+        justify-content: center;
+}
+
+button {
+        margin: 20px auto;
+        padding: 12px;
+        font-size: 24px;
+        background-color: var(--black);
+        color: var(--white);
+        border: 5px solid;
+        border-image-slice: 1;
+        border-image-source: linear-gradient(115deg, var(--bright-red), var(--grad-color1));
+        font-family: 'Times';
+        font-size: 1.1rem;
+        font-weight: bold;
+        letter-spacing: 2px;
+        cursor: pointer;
+        transition: 0.4s;
+        -webkit-box-shadow: 2px 14px 13px 0px rgba(43, 61, 20, 1);
+        -moz-box-shadow: 2px 14px 13px 0px rgba(43, 61, 20, 1);
+        box-shadow: 2px 14px 13px 0px rgba(43, 61, 20, 1);
+}
+
+button:hover {
+        border-image-source: linear-gradient(-115deg, var(--bright-red), var(--grad-color1));
+        scale: 1.075;
+        color: var(--btn-color);
+}
+
+
+/* animations */
+
+@keyframes display-joke {
+        from {
+                opacity: 0;
+        }
+
+        to {
+                opacity: 1;
+        }
+}
+
+@keyframes left-open {
+        0% {
+                transform: translateX(0%);
+        }
+
+        100% {
+                transform: translateX(-100%);
+        }
+}
+
+@keyframes right-open {
+        from {
+                transform: translateX(0%);
+        }
+
+        to {
+                transform: translateX(100%);
+        }
+}
+
+@keyframes close-joke {
+        from {
+                opacity: 1;
+        }
+
+        to {
+                opacity: 0;
+        }
+}
+
+@keyframes left-close {
+        0% {
+                transform: translateX(-100%);
+        }
+
+        100% {
+                transform: translateX(0%);
+        }
+}
+
+@keyframes right-close {
+        from {
+                transform: translateX(100%);
+        }
+
+        to {
+                transform: translateX(0%);
+        }
+}
+
+snowflake span.snowflake {
+        scale: 0.6;
+}

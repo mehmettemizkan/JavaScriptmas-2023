@@ -1,6 +1,6 @@
 {
-        "name": "Christmas Countdown 2023",
-        "short_name": "Christmas Countdown 2023",
+        "name": "Joke Generator",
+        "short_name": "Joke Generator",
         "icons": [
                 {
                         "src": "../assets/img/android-chrome-192x192.png",
