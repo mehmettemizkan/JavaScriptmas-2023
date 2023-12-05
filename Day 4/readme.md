@@ -1,6 +1,6 @@
-# Joke Generator
-
-![Joke Generator](link_to_project_image)
+# AI Christmas Joke Generator
+**Task:** Use AI to generate a one-line Christmas joke. <br><br>
+![joke-generator](https://github.com/mehmettemizkan/JavaScriptmas-2023/assets/56386597/c655c6d2-8f27-486a-9c82-3477aa2e86aa)
 
 -   [Description](#description)
 -   [How to Use](#how-to-use)
