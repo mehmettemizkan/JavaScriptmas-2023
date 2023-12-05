@@ -14,24 +14,44 @@
 
     <link rel="stylesheet" type="text/css" href="index.css">
     <link rel="stylesheet" type="text/css" href="../assets/css/snowfall.css">
-    <script defer type="text/javascript" src="../assets/js/fireworks.js"></script>
+    <link rel="stylesheet" href="../assets/css/joke-generator-without-button.css">
+
 </head>
 
 <body>
 
     <canvas id="canvas"></canvas>
-    <div class="content">
-        <div class="countdown-container">
-            <h1>🎄Christmas Countdown🎄</h1>
-            <p id="countdown-display">-</p>
-            <h1>'til Christmas!</h1>
+    <div class="container">
+        <div class="container-inner">
+            <div class="countdown-container">
+                <h1>🎄Christmas Countdown🎄</h1>
+                <p id="countdown-display">-</p>
+                <h1>'til Christmas!</h1>
+            </div>
+            <div class="countdown-container-back">
+                <header>
+                    <h1>Joke Generator</h1>
+                </header>
+                <main id="window-container">
+                    <section class="left-door">
+                        <img src="../assets/img/christmas-laugh-left.png" />
+                    </section>
+                    <section class="joke-display">
+                        <h1 id="joke-display">
 
-            <button id="fireworksToggle">Start Fireworks</button>
+                        </h1>
+                    </section>
+                    <section class="right-door">
+                        <img src="../assets/img/christmas-laugh-right.png" />
+                    </section>
+                </main>
+            </div>
         </div>
     </div>
 
 
     <script src="../assets/js/countdown.js"></script>
+    <script src="../assets/js/joke-generator-without-button.js"></script>
 
     <snowfall>
         <snowflake><img src="../assets/img/snowflake.png">️</snowflake>

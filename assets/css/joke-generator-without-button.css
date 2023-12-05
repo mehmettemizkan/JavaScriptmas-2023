@@ -1,0 +1,150 @@
+main {
+        display: flex;
+        margin: auto;
+        position: relative;
+        padding: 0;
+}
+
+main img {
+        width: 100%;
+        height: 100%;
+        display: block;
+}
+
+.left-door {
+        border: var(--main-frame);
+        border-right: 0;
+        border-top-left-radius: var(--radius);
+        border-bottom-left-radius: var(--radius);
+}
+
+.left-door img {
+        border-right: 0;
+        border-top-left-radius: var(--radius);
+        border-bottom-left-radius: var(--radius);
+}
+
+.right-door {
+        border: var(--main-frame);
+        border-left: 0;
+        border-top-right-radius: var(--radius);
+        border-bottom-right-radius: var(--radius);
+}
+
+.right-door img {
+        border-left: 0;
+        border-top-right-radius: var(--radius);
+        border-bottom-right-radius: var(--radius);
+}
+
+.joke-display {
+        position: absolute;
+        background-color: rgba(255, 255, 255, 0.2);
+
+        opacity: 0;
+        left: 0;
+        right: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        border: var(--main-frame);
+        height: 100%;
+
+        cursor: pointer;
+        font-size: 1rem;
+}
+
+.close-door-el {
+        display: flex;
+        justify-content: center;
+}
+
+button {
+        margin: 20px auto;
+        padding: 12px;
+        font-size: 24px;
+        background-color: var(--black);
+        color: var(--white);
+        border: 5px solid;
+        border-image-slice: 1;
+        border-image-source: linear-gradient(115deg, var(--bright-red), var(--grad-color1));
+        font-family: 'Times';
+        font-size: 1.1rem;
+        font-weight: bold;
+        letter-spacing: 2px;
+        cursor: pointer;
+        transition: 0.4s;
+        -webkit-box-shadow: 2px 14px 13px 0px rgba(43, 61, 20, 1);
+        -moz-box-shadow: 2px 14px 13px 0px rgba(43, 61, 20, 1);
+        box-shadow: 2px 14px 13px 0px rgba(43, 61, 20, 1);
+}
+
+button:hover {
+        border-image-source: linear-gradient(-115deg, var(--bright-red), var(--grad-color1));
+        scale: 1.075;
+        color: var(--btn-color);
+}
+
+
+/* animations */
+
+@keyframes display-joke {
+        from {
+                opacity: 0;
+        }
+
+        to {
+                opacity: 1;
+        }
+}
+
+@keyframes left-open {
+        0% {
+                transform: translateX(0%);
+        }
+
+        100% {
+                transform: translateX(-100%);
+        }
+}
+
+@keyframes right-open {
+        from {
+                transform: translateX(0%);
+        }
+
+        to {
+                transform: translateX(100%);
+        }
+}
+
+@keyframes close-joke {
+        from {
+                opacity: 1;
+        }
+
+        to {
+                opacity: 0;
+        }
+}
+
+@keyframes left-close {
+        0% {
+                transform: translateX(-100%);
+        }
+
+        100% {
+                transform: translateX(0%);
+        }
+}
+
+@keyframes right-close {
+        from {
+                transform: translateX(100%);
+        }
+
+        to {
+                transform: translateX(0%);
+        }
+}
