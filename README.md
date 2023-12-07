@@ -44,6 +44,9 @@ Use AI to generate a one-line Christmas joke. <br>
 ### Challenge
 * Card has two sides, and flips from front to back on hover
 * Match styles as closely as tou can
+
+![day5](https://github.com/mehmettemizkan/JavaScriptmas-2023/assets/56386597/feddb1e7-49d8-458b-b762-125a08839fd7)
+
 <br> <br>
 
 ## Day 6: Secret Santa
