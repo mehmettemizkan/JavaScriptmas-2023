@@ -31,27 +31,30 @@ Some children have got some pieces of candy. They want to eat as much candy as t
 
 My Solution: https://github.com/mehmettemizkan/JavaScriptmas-2023/tree/master/Day3 <br> <br>
 
-## Day 4 AI Christmas Joke Generator
+## Day 4: AI Christmas Joke Generator
 ### Challenge
 Use AI to generate a one-line Christmas joke. <br>
 ### Stretch Goals
 * Use a different AI provider
 * Work on the UX
-![joke-generator](https://github.com/mehmettemizkan/JavaScriptmas-2023/assets/56386597/c655c6d2-8f27-486a-9c82-3477aa2e86aa)
 
-## Day 5 Jeopardy Card Flip
+![joke-generator](https://github.com/mehmettemizkan/JavaScriptmas-2023/assets/56386597/c655c6d2-8f27-486a-9c82-3477aa2e86aa) <br> <br>
+
+## Day 5: Jeopardy Card Flip
 ### Challenge
 * Card has two sides, and flips from front to back on hover
 * Match styles as closely as tou can
+<br> <br>
 
-## Day 6 Secret Santa
+## Day 6: Secret Santa
 ### Challenge
 * Write a function to randomly assign each person in an array a 'Secret Santa', who is someone else in the array
 * No one should be assigned themselves as their own Secret Santa
 ### Stretch Goals
 * Create a UI with a button to trigger your Secret Santa function and display the result.
+<br> <br>
 
-## Day 7 Xmas Present Wishlist
+## Day 7: Xmas Present Wishlist
 ### Challenge
 * Iterate over the wishlist array.
 * Dynamically render your wishlist from the array.
@@ -64,3 +67,4 @@ Use AI to generate a one-line Christmas joke. <br>
 ### Stretch Goals
 * Provide a way to add / remove wishlist items
 * Make each array item an object with the item's name, description and a link to where it can be purchased.
+<br> <br>
