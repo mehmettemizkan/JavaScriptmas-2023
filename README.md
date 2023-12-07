@@ -55,7 +55,8 @@ Use AI to generate a one-line Christmas joke. <br>
 * No one should be assigned themselves as their own Secret Santa
 ### Stretch Goals
 * Create a UI with a button to trigger your Secret Santa function and display the result.
-<br> <br>
+
+![day66](https://github.com/mehmettemizkan/JavaScriptmas-2023/assets/56386597/b44a25f0-5024-4d83-ac22-fd7a2bb723ed) <br> <br>
 
 ## Day 7: Xmas Present Wishlist
 ### Challenge
