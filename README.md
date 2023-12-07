@@ -71,4 +71,7 @@ Use AI to generate a one-line Christmas joke. <br>
 ### Stretch Goals
 * Provide a way to add / remove wishlist items
 * Make each array item an object with the item's name, description and a link to where it can be purchased.
+
+![day7](https://github.com/mehmettemizkan/JavaScriptmas-2023/assets/56386597/cb30a065-8e88-4ca9-a483-f93e9d0f9e25)
+
 <br> <br>
