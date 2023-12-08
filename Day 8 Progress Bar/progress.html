@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+        <style>
+                * {
+                        margin: 0;
+                        padding: 0;
+                        box-sizing: border-box;
+                }
+
+                /* Styling the body of the page */
+                body {
+                        height: 100vh;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        background-color: #010101;
+                }
+
+                /* Stylingthe last h2 tag by giving margin bottom */
+                .progress-bar-container:not(:last-child) {
+                        margin-bottom: 50px;
+                }
+
+                /* Styling the h2 tag by giving color, 
+		letter spacing, font-size etc.*/
+                .progress-bar-container h2 {
+                        font-family: Arial, Helvetica, sans-serif;
+                        color: #eee;
+                        letter-spacing: 1px;
+                        font-size: 20px;
+                }
+
+                /* Styling the border and box
+		effect of the progress bar*/
+                .progress-bar {
+                        width: 800px;
+                        height: 5px;
+                        margin-top: 10px;
+                        border: 1px solid #565656;
+                        border-radius: 5px;
+                        box-shadow: 0 0 10px rgb(245, 159, 0);
+                }
+
+                /* Stylingthe background color of each 
+		animation and border radius */
+                .percentage {
+                        display: block;
+                        height: 100%;
+                        background-color: orange;
+                        border-radius: 5px;
+                        animation: progress 1500ms ease-in infinite;
+                        animation-delay: 0s, 5s;
+                }
+
+                /* Assigning width of each languages*/
+                .c {
+                        width: 85%;
+                }
+
+                .java {
+                        width: 70%;
+                }
+
+                .python {
+                        width: 55%;
+                }
+
+                .html {
+                        width: 75%;
+                }
+
+                .css {
+                        width: 65%;
+                }
+
+                .javascript {
+                        width: 55%;
+                }
+
+                /* Animating the progress bar by 
+		initially starting from 0*/
+                @keyframes progress {
+                        from {
+                                width: 0;
+                        }
+                }
+        </style>
+</head>
+
+<body>
+        <div class="skills">
+                <div class="progress-bar-container">
+                        <h2>C/C++</h2>
+                        <div class="progress-bar">
+                                <span class="percentage c"></span>
+                        </div>
+                </div>
+
+                <div class="progress-bar-container">
+                        <h2>Java</h2>
+                        <div class="progress-bar">
+                                <span class="percentage java"></span>
+                        </div>
+                </div>
+
+                <div class="progress-bar-container">
+                        <h2>Python</h2>
+                        <div class="progress-bar">
+                                <span class="percentage python"></span>
+                        </div>
+                </div>
+
+                <div class="progress-bar-container">
+                        <h2>HTML</h2>
+                        <div class="progress-bar">
+                                <span class="percentage html"></span>
+                        </div>
+                </div>
+
+                <div class="progress-bar-container">
+                        <h2>CSS</h2>
+                        <div class="progress-bar">
+                                <span class="percentage css"></span>
+                        </div>
+                </div>
+
+                <div class="progress-bar-container">
+                        <h2>JavaScript</h2>
+                        <div class="progress-bar">
+                                <span class="percentage javascript"></span>
+                        </div>
+                </div>
+        </div>
+</body>
+
+</html>
