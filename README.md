@@ -75,3 +75,9 @@ Use AI to generate a one-line Christmas joke. <br>
 ![day7](https://github.com/mehmettemizkan/JavaScriptmas-2023/assets/56386597/cb30a065-8e88-4ca9-a483-f93e9d0f9e25)
 
 <br> <br>
+
+## Day 8 Animated Progress Bar
+### Challenge
+* Build a css animation of a progress bar filling to 100%. The animation should run continuosly, with a small pause when the bar is filled 100%.
+* The progress begins red, turns blue at 50% full, and green when complete.
+* CSS only.
