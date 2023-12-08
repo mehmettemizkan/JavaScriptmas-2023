@@ -23,7 +23,7 @@ JavaScriptmas 2023 - 24 Days of Coding Challenges
 * Center button on page
 
 ## Here is the output of my solution of the Day 1 & Day 2 Challenges
-![christmas-countdown](https://github.com/mehmettemizkan/JavaScriptmas-2023/assets/56386597/7d212789-f8a7-4292-99a9-bb298081c861) <br> <br>
+![Christmas Countdown With A Colorful Button](https://github.com/mehmettemizkan/JavaScriptmas-2023/assets/56386597/7d212789-f8a7-4292-99a9-bb298081c861) <br> <br>
 
 ## Day 3: Divide Candy
 ### Challenge:
@@ -38,14 +38,14 @@ Use AI to generate a one-line Christmas joke. <br>
 * Use a different AI provider
 * Work on the UX
 
-![joke-generator](https://github.com/mehmettemizkan/JavaScriptmas-2023/assets/56386597/c655c6d2-8f27-486a-9c82-3477aa2e86aa) <br> <br>
+![Day 4: AI Christmas Joke Generator](https://github.com/mehmettemizkan/JavaScriptmas-2023/assets/56386597/c655c6d2-8f27-486a-9c82-3477aa2e86aa) <br> <br>
 
 ## Day 5: Jeopardy Card Flip
 ### Challenge
 * Card has two sides, and flips from front to back on hover
 * Match styles as closely as tou can
 
-![day5](https://github.com/mehmettemizkan/JavaScriptmas-2023/assets/56386597/feddb1e7-49d8-458b-b762-125a08839fd7)
+![Day 5: Jeopardy Card Flip](https://github.com/mehmettemizkan/JavaScriptmas-2023/assets/56386597/feddb1e7-49d8-458b-b762-125a08839fd7)
 
 <br> <br>
 
@@ -56,7 +56,7 @@ Use AI to generate a one-line Christmas joke. <br>
 ### Stretch Goals
 * Create a UI with a button to trigger your Secret Santa function and display the result.
 
-![day66](https://github.com/mehmettemizkan/JavaScriptmas-2023/assets/56386597/b44a25f0-5024-4d83-ac22-fd7a2bb723ed) <br> <br>
+![Day 6: Secret Santa](https://github.com/mehmettemizkan/JavaScriptmas-2023/assets/56386597/b44a25f0-5024-4d83-ac22-fd7a2bb723ed) <br> <br>
 
 ## Day 7: Xmas Present Wishlist
 ### Challenge
@@ -72,7 +72,7 @@ Use AI to generate a one-line Christmas joke. <br>
 * Provide a way to add / remove wishlist items
 * Make each array item an object with the item's name, description and a link to where it can be purchased.
 
-![day7](https://github.com/mehmettemizkan/JavaScriptmas-2023/assets/56386597/cb30a065-8e88-4ca9-a483-f93e9d0f9e25)
+![Day 7: Xmas Present Wishlist](https://github.com/mehmettemizkan/JavaScriptmas-2023/assets/56386597/cb30a065-8e88-4ca9-a483-f93e9d0f9e25)
 
 <br> <br>
 
@@ -81,3 +81,9 @@ Use AI to generate a one-line Christmas joke. <br>
 * Build a css animation of a progress bar filling to 100%. The animation should run continuosly, with a small pause when the bar is filled 100%.
 * The progress begins red, turns blue at 50% full, and green when complete.
 * CSS only.
+
+![Day 8 Animated Progress Bar](https://github.com/mehmettemizkan/JavaScriptmas-2023/assets/56386597/f019f026-9a69-4762-a897-29066ac47249)
+
+
+
+
