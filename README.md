@@ -85,5 +85,13 @@ Use AI to generate a one-line Christmas joke. <br>
 ![Day 8 Animated Progress Bar](https://github.com/mehmettemizkan/JavaScriptmas-2023/assets/56386597/f019f026-9a69-4762-a897-29066ac47249)
 
 
-
+##  Day 9 AI Christmas E-card Generator
+### challenge
+* Use AI to generate an image for a christmas e-card.
+* Render the image to the DOM
+### Stretch Goals
+* Use a different AI provider
+* Work on the UX
+  * Handle Errors
+* Brighten up the modal
 
