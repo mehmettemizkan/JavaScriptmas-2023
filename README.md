@@ -95,3 +95,7 @@ Use AI to generate a one-line Christmas joke. <br>
   * Handle Errors
 * Brighten up the modal
 
+![Day 9 AI Christmas E-card Generator](https://github.com/mehmettemizkan/JavaScriptmas-2023/assets/56386597/42bff20f-93a1-4e60-95d9-1df09ed02af9)
+
+
+
