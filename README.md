@@ -82,7 +82,7 @@ Use AI to generate a one-line Christmas joke. <br>
 * The progress begins red, turns blue at 50% full, and green when complete.
 * CSS only.
 
-![Day 8 Animated Progress Bar](https://github.com/mehmettemizkan/JavaScriptmas-2023/assets/56386597/f019f026-9a69-4762-a897-29066ac47249)
+![Day 8 Animated Progress Bar](https://github.com/mehmettemizkan/JavaScriptmas-2023/assets/56386597/f019f026-9a69-4762-a897-29066ac47249) <br> <br>
 
 
 ##  Day 9 AI Christmas E-card Generator
@@ -95,7 +95,15 @@ Use AI to generate a one-line Christmas joke. <br>
   * Handle Errors
 * Brighten up the modal
 
-![Day 9 AI Christmas E-card Generator](https://github.com/mehmettemizkan/JavaScriptmas-2023/assets/56386597/42bff20f-93a1-4e60-95d9-1df09ed02af9)
+![Day 9 AI Christmas E-card Generator](https://github.com/mehmettemizkan/JavaScriptmas-2023/assets/56386597/42bff20f-93a1-4e60-95d9-1df09ed02af9) <br> <br>
+
+## Day 10: Rockin' Around
+### Challenge
+* Add code inside of the playSong(id) function to make the Youtube Player play the new youtube song.
+### Stretch Goals
+* Add your favorite songs.
+* Change design and style of app
+* Hide YouTube player so you just hear the music.
 
 
 
