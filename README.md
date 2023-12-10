@@ -105,5 +105,7 @@ Use AI to generate a one-line Christmas joke. <br>
 * Change design and style of app
 * Hide YouTube player so you just hear the music.
 
+![Day 10 Rockin' Around](https://github.com/mehmettemizkan/JavaScriptmas-2023/assets/56386597/c34670a6-0aa5-4628-a97d-05616ff741d3)
+
 
 
