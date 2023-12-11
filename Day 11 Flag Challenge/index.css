@@ -1,0 +1,34 @@
+body {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+}
+
+.switzerland-flag {
+        width: 320px;
+        height: 320px;
+        position: relative;
+        display: grid;
+        grid-template-columns: repeat(5, 60px 70px);
+        /* It will be 5 columns and its */
+        grid-template-rows: repeat(5, 60px 70px);
+        background-color: red;
+}
+
+.cross {
+        background-color: white;
+}
+
+.horizontal {
+        grid-column: 2 / span 3;
+        /* It will start from the 2nd column and continue up to 3 column. */
+        grid-row: 3 / span 1;
+        /* It will start from the 3rd row and continue up to 1 row.  */
+
+}
+
+.vertical {
+        grid-column: 3 / span 1;
+        grid-row: 2 / span 3;
+}
