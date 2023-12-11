@@ -138,10 +138,12 @@ Use AI to generate a one-line Christmas joke. <br>
 -   Change design and style of app
 -   Hide YouTube player so you just hear the music.
 
-![Day 10 Rockin' Around](https://github.com/mehmettemizkan/JavaScriptmas-2023/assets/56386597/c34670a6-0aa5-4628-a97d-05616ff741d3)
+![Day 10 Rockin' Around](https://github.com/mehmettemizkan/JavaScriptmas-2023/assets/56386597/c34670a6-0aa5-4628-a97d-05616ff741d3) <br> <br>
 
 ## Day 11: Flag Challenge Switzerland
 
 ### Challenge
 
--   Create Switzerland Flag Using Css
+*   Create Switzerland Flag Using Css
+  
+<img width="800" alt="Day 11: Flag Challenge Switzerland" src="https://github.com/mehmettemizkan/JavaScriptmas-2023/assets/56386597/83b68048-cef3-4414-bfc6-af36137cecff">
