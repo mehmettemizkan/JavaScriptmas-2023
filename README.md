@@ -144,13 +144,32 @@ Use AI to generate a one-line Christmas joke. <br>
 
 ### Challenge
 
-*   Create Switzerland Flag Using Css
-  
+-   Create Switzerland Flag Using Css
+
 <img width="800" alt="Day 11: Flag Challenge Switzerland" src="https://github.com/mehmettemizkan/JavaScriptmas-2023/assets/56386597/83b68048-cef3-4414-bfc6-af36137cecff"><br> <br>
 
 ## Day 12 Santa's Gift Sorter
+
 ### Challenge
-* Help santa by sorting the gifts array into alphabetical order AND reverse alphabetical order.
+
+-   Help santa by sorting the gifts array into alphabetical order AND reverse alphabetical order.
+
 ### Stretch Goals
-* Complete the task using only the .sort() method.
-* Complete the task using no array method other than .forEach()
+
+-   Complete the task using only the .sort() method.
+-   Complete the task using no array method other than .forEach()
+    <br> <br>
+
+## Day 13 Christmas Dinner Packer
+
+### Challenge
+
+-   Write the code to help a user choose the perfect Christmas dinner idea based on the number of people attending.
+-   Include a checkbox for the user to specify the meal should be vegetarian-friendly.
+
+### Stretch Goals
+
+-   Add more dietary options.
+-   Include a button to show an alternative if the user doesn't like the suggested dinner.
+-   Show links to recipes when a meal is chosen.
+-   Render an image of the meal when chosen.
