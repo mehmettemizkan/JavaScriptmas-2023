@@ -27,17 +27,11 @@ body {
         display: flex;
         flex-direction: column;
         align-items: center;
-        justify-content: center;
 }
 
-h1 {
-        margin: 150px 0 20px 0;
-        text-align: center;
-}
 
 form input,
-form button,
-.result {
+form button {
         box-sizing: border-box;
         box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
         border-radius: 5px;
@@ -47,8 +41,8 @@ form button,
 form {
         display: flex;
         flex-direction: column;
-        height: 12em;
         justify-content: space-around;
+        margin-top: 20px;
 }
 
 
@@ -77,8 +71,6 @@ input {
 }
 
 .result {
-        min-width: 270px;
-        padding: 1em;
         font-size: 1.5rem;
 }
 
@@ -100,4 +92,15 @@ button:focus {
 
 a {
         color: var(--snow)
+}
+
+img {
+        border: none;
+        border-radius: 8px;
+
+}
+
+.recipe-img {
+        width: 300px;
+        height: 220px;
 }

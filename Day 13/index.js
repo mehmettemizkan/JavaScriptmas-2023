@@ -25,7 +25,8 @@ async function generateAnImage(prompt) {
 }
 
 const result = document.getElementById('result')
-// result.style.display = 'none'
+
+
 
 document.getElementById('btn').addEventListener('click', function () {
         calculateDinner();
@@ -43,31 +44,36 @@ async function calculateDinner() {
                 const vegetarianOptions = [
                         { suggestion: 'Winter Squash Risotto' },
                         { suggestion: 'Vegetarian Lasagna' },
-                        { suggestion: 'Stuffed Bell Peppers' }
+                        { suggestion: 'Stuffed Bell Peppers' },
+                        { suggestion: 'Mushroom and Spinach Quiche' },
+                        { suggestion: 'Eggplant Parmesan' },
+                        { suggestion: 'Vegetable Stir-Fry' },
+                        { suggestion: 'Caprese Salad with Balsamic Glaze' },
+                        { suggestion: 'Spinach and Feta Stuffed Mushrooms' }
                 ];
 
                 const randomIndex = Math.floor(Math.random() * vegetarianOptions.length);
                 suggestion = vegetarianOptions[randomIndex].suggestion;
         }
         else if (numGuests === 2) {
-                suggestion = 'Intimate Dinner for Two';
+                suggestion = 'Beef Tenderloin';
         } else if (numGuests === 3) {
-                suggestion = 'Family Feast for Three';
+                suggestion = 'Baked Ziti with Meat Sauce';
         } else if (numGuests >= 4 && numGuests <= 6) {
                 suggestion = 'Festive Roast Chicken Dinner';
         } else {
-                suggestion = 'Grand Banquet with Multiple Courses';
+                suggestion = 'Herb-Roasted Turkey';
         }
         imagePath = await generateAnImage(suggestion)
 
         const resultElement = document.getElementById('result');
-        const foodElement = document.getElementById('food');
         const foodImageElement = document.getElementById('foodImage')
 
         // You can replace the links with actual recipe links
-        const suggestionLink = '<a href="#">Recipe Link</a>';
+        const suggestionLink = `<a href="https://www.google.com.tr/search?q=${suggestion}+recipe" target='blank'>Recipe Link</a>`;
 
         resultElement.innerHTML += `${suggestion}</span>.</br></br> ${suggestionLink}`;
         foodImageElement.src = imagePath;
-        result.style.display = 'block'
+        foodImageElement.className = 'recipe-img'
+
 }
