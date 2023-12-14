@@ -1,0 +1,103 @@
+:root {
+        --wine-red: #C7375F;
+        --bright-red: #D42D2F;
+        --dark-green: #344D2F;
+        --light-green: #77A047;
+        --gold: #FAC57D;
+        --snow: #F0F4F7;
+}
+
+html,
+body {
+        margin: 0;
+        padding: 0;
+}
+
+body {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        height: 100vh;
+        color: var(--snow);
+        background-color: var(--wine-red);
+}
+
+.container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+}
+
+h1 {
+        margin: 150px 0 20px 0;
+        text-align: center;
+}
+
+form input,
+form button,
+.result {
+        box-sizing: border-box;
+        box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+        border-radius: 5px;
+        border: none;
+}
+
+form {
+        display: flex;
+        flex-direction: column;
+        height: 12em;
+        justify-content: space-around;
+}
+
+
+form * {
+        padding: .5em;
+        font-size: 1.3rem
+}
+
+label {
+        padding: 0;
+}
+
+input {
+        background: var(--snow);
+        color: var(--dark-green);
+}
+
+.veggie {
+        padding-left: 0;
+        display: flex;
+        align-items: center;
+}
+
+.veggie>input {
+        margin-right: 10px;
+}
+
+.result {
+        min-width: 270px;
+        padding: 1em;
+        font-size: 1.5rem;
+}
+
+.result span {
+        max-width: 100%
+}
+
+button {
+        color: var(--dark-green);
+        background: var(--gold);
+        margin-bottom: 20px;
+}
+
+button:hover,
+button:focus {
+        transform: scale(1.05);
+        cursor: pointer;
+}
+
+a {
+        color: var(--snow)
+}

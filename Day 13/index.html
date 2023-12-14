@@ -1,0 +1,30 @@
+<html>
+
+<head>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+        <div class="container">
+                <h1>Christmas Dinner Picker</h1>
+                <img id='foodImage' width="350px" height="250px" />
+                <div class="result" id="result">
+                        <p>Your ideal Christmas dinner is <span id="food">...</span></p>
+                </div>
+                <form>
+                        <label for="guests">How many guests are coming?</label>
+                        <input id="num-input" type="number" id="guests" name="guests" required>
+                        <div class="veggie">
+                                <input type="checkbox" id="vegetarian-input" name="vegetarian" checked>
+                                <label for="vegetarian">Vegetarian?</label>
+                        </div>
+                        <button id="btn" type="button">Calculate</button>
+                </form>
+        </div>
+
+
+        <script src="index.js" type="module"></script>
+</body>
+
+</html>
