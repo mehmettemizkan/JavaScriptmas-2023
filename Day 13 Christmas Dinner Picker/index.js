@@ -40,7 +40,6 @@ async function calculateDinner() {
         let imagePath = '';
 
         if (isVegetarian) {
-                // Different vegetarian suggestions
                 const vegetarianOptions = [
                         { suggestion: 'Winter Squash Risotto' },
                         { suggestion: 'Vegetarian Lasagna' },
@@ -72,7 +71,7 @@ async function calculateDinner() {
         // You can replace the links with actual recipe links
         const suggestionLink = `<a href="https://www.google.com.tr/search?q=${suggestion}+recipe" target='blank'>Recipe Link</a>`;
 
-        resultElement.innerHTML += `${suggestion}</span>.</br></br> ${suggestionLink}`;
+        resultElement.innerHTML = `<p>Your ideal Christmas dinner is <span id="food">...</span></p><span>${suggestion}</span>.</br></br> ${suggestionLink}`;
         foodImageElement.src = imagePath;
         foodImageElement.className = 'recipe-img'
 

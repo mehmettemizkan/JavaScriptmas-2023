@@ -71,11 +71,9 @@ input {
 }
 
 .result {
-        font-size: 1.5rem;
-}
 
-.result span {
-        max-width: 100%
+        text-align: center;
+        font-size: 1.2rem;
 }
 
 button {
