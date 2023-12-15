@@ -1,0 +1,71 @@
+:root {
+        --dark-green: #344D2F;
+        --snow: #F0F4F7;
+}
+
+html,
+body {
+        margin: 0;
+        padding: 0;
+}
+
+body {
+        background-image: url('elf-background.jpeg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+        text-align: center;
+        color: var(--snow);
+}
+
+.elf-hangout-zone {
+        min-width: 200px;
+        max-width: 5ch;
+        /* This feature limits the number of Elves to 6 per line. */
+        max-height: 500px;
+        padding: 2%;
+        border-radius: 5px;
+}
+
+h1 {
+        margin: 10px 0;
+}
+
+.elf {
+        font-size: 30px;
+}
+
+button {
+        padding: 10px 1em;
+        border: none;
+        font-size: 1.2rem;
+        background-color: var(--dark-green);
+        color: var(--snow);
+        border-radius: 36px;
+
+}
+
+button:hover {
+        cursor: pointer;
+        transform: scale(1.03)
+}
+
+.button-container {
+        display: flex;
+        gap: 10px;
+}
+
+#warning {
+        margin-bottom: 15px;
+}
+
+h1,
+.elf-hangout-zone,
+button,
+#warning {
+        user-select: none;
+}
