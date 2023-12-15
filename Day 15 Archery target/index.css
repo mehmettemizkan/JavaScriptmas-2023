@@ -1,0 +1,53 @@
+:root {
+        --black: #282828;
+        --blue: #2892f9;
+        --red: #fb2f27;
+        --yellow: #fdfe29;
+        --wheat: #f5deb3;
+}
+
+html,
+body {
+        margin: 0;
+        padding: 0;
+}
+
+body {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        background-color: var(--wheat);
+}
+
+.ring {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 50%;
+}
+
+.ring-1 {
+        width: 400px;
+        height: 400px;
+        background-color: var(--black);
+}
+
+.ring-2 {
+        width: 300px;
+        height: 300px;
+        background-color: var(--blue);
+}
+
+.ring-3 {
+        width: 200px;
+        height: 200px;
+        background-color: var(--red);
+}
+
+.bullseye {
+        width: 100px;
+        height: 100px;
+        background-color: var(--yellow);
+}
