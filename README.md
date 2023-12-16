@@ -188,7 +188,7 @@ Use AI to generate a one-line Christmas joke. <br>
 -   Write a function to give the elves some tools, or a cup of tea!
 -   Limit the total number of elves to 100.
 
-![Day 14 Lonely Elf](https://github.com/mehmettemizkan/JavaScriptmas-2023/assets/56386597/06183756-8b5a-4cb1-a4eb-d03d17badf5b) <br> <br>
+![Day 14 Lonely Elf](https://github.com/mehmettemizkan/JavaScriptmas-2023/assets/56386597/06183756-8b5a-4cb1-a4eb-d03d17badf5b) <br><br>
 
 ## Day 15 Archery Target
 
@@ -197,7 +197,7 @@ Use AI to generate a one-line Christmas joke. <br>
 -   Match the example.
 -   Center on the page
 
-<img width="800" alt="Day 15 Archery Target" src="https://github.com/mehmettemizkan/JavaScriptmas-2023/assets/56386597/97032b8c-601d-4675-a6b8-aebc2712de33"><br> <br>
+<img width="800" alt="Day 15 Archery Target" src="https://github.com/mehmettemizkan/JavaScriptmas-2023/assets/56386597/97032b8c-601d-4675-a6b8-aebc2712de33"><br><br>
 
 ## Day 16 Naughty List, Nice List
 
@@ -211,5 +211,6 @@ Use AI to generate a one-line Christmas joke. <br>
 -   Add the option to add new names to sorteesArr.
 -   Make it possible to switch people from one list to the other.
 
-![Day 16 Naughty List, Nice List](https://github.com/mehmettemizkan/JavaScriptmas-2023/assets/56386597/d249404b-db69-45ac-bf58-4afb1b44304a)
+
+![Day 16 Naughty List Nice List](https://github.com/mehmettemizkan/JavaScriptmas-2023/assets/56386597/7b88a8f3-49c8-4af7-83f0-e40f844e9f76)
 
