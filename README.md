@@ -210,3 +210,6 @@ Use AI to generate a one-line Christmas joke. <br>
 
 -   Add the option to add new names to sorteesArr.
 -   Make it possible to switch people from one list to the other.
+
+![Day 16 Naughty List, Nice List](https://github.com/mehmettemizkan/JavaScriptmas-2023/assets/56386597/d249404b-db69-45ac-bf58-4afb1b44304a)
+
