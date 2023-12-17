@@ -1,0 +1,49 @@
+html,
+body {
+        margin: 0;
+        padding: 0;
+
+}
+
+body {
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+}
+
+h1::after {
+        content: '';
+        animation: swap-text 8s infinite;
+        border-radius: 16px;
+        padding: 8px 16px;
+
+}
+
+@keyframes swap-text {
+
+        0%,
+        25% {
+                content: 'Programming';
+                background-color: green;
+                color: black;
+        }
+
+        50% {
+                content: 'Chess';
+                background-color: #eeeed2;
+                color: #769656;
+        }
+
+        75% {
+                content: 'Formula 1';
+                background-color: red;
+                color: black;
+        }
+
+        100% {
+                content: 'Math';
+                background-color: black;
+                color: white;
+        }
+}
