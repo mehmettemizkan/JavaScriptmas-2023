@@ -212,5 +212,13 @@ Use AI to generate a one-line Christmas joke. <br>
 -   Make it possible to switch people from one list to the other.
 
 
-![Day 16 Naughty List Nice List](https://github.com/mehmettemizkan/JavaScriptmas-2023/assets/56386597/7b88a8f3-49c8-4af7-83f0-e40f844e9f76)
+![Day 16 Naughty List Nice List](https://github.com/mehmettemizkan/JavaScriptmas-2023/assets/56386597/7b88a8f3-49c8-4af7-83f0-e40f844e9f76)<br><br>
 
+## Day 17 Word Carousel
+### Challenge
+- Match styles.
+- Personalize - display 4 things you love.
+- Words should rotate in an infinite loop.
+- No JavaScript.
+
+![Day 17 Word Carousel](https://github.com/mehmettemizkan/JavaScriptmas-2023/assets/56386597/5ff3c4f8-3496-42c1-90de-e2d250635b4c)
