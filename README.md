@@ -230,3 +230,7 @@ Use AI to generate a one-line Christmas joke. <br>
 ### Stretch Goals
 - Use a different AI provider.
 - Refactor this app so the message is als AI generated.
+
+![Day 18](https://github.com/mehmettemizkan/JavaScriptmas-2023/assets/56386597/2a8eb97b-e4e4-4d34-8c06-c227ced563dd)<br><br>
+
+
