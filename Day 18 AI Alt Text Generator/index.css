@@ -1,0 +1,115 @@
+:root {
+        --radius: 3px;
+        --main-color: red;
+}
+
+
+html,
+body {
+        margin: 0;
+        padding: 0;
+}
+
+body {
+        background-image: url('/xmas-bg.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 100vh;
+        background-color: pink;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: var(--main-color);
+}
+
+main {
+        display: flex;
+        box-shadow: 3px 3px 10px 1px #666;
+        border-radius: var(--radius);
+        position: relative;
+}
+
+section {
+        width: 256px;
+
+        text-align: center;
+        background-color: white;
+        padding: 1em;
+}
+
+.right-col {
+        border-top-right-radius: var(--radius);
+        border-bottom-right-radius: var(--radius);
+        display: flex;
+        flex-direction: column;
+        /* align-items: center; */
+        /* justify-content: center; */
+        font-family: 'Courgette';
+}
+
+.left-col {
+        border-top-left-radius: var(--radius);
+        border-bottom-left-radius: var(--radius);
+}
+
+img {
+        border-radius: var(--radius);
+        width: 256px;
+}
+
+dialog {
+        border: none;
+        border-radius: var(--radius);
+        box-shadow: 3px 3px 10px 1px #666;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        padding: 2em;
+        width: 300px;
+}
+
+.form-inner {
+        display: flex;
+}
+
+label {
+        font-family: 'Roboto';
+        display: block;
+        text-align: center;
+        margin: 0 auto 1em auto;
+        padding: 0 .2em;
+        font-size: 140%;
+}
+
+textarea {
+        resize: none;
+        border-right: none;
+        border: 1px solid #999;
+        border-top-left-radius: var(--radius);
+        border-bottom-left-radius: var(--radius);
+        height: 3em;
+        padding: .3em;
+        width: 100%;
+        margin: 0 auto;
+}
+
+button {
+        background-color: var(--main-color);
+        border: none;
+        color: white;
+        border-top-right-radius: var(--radius);
+        border-bottom-right-radius: var(--radius);
+        padding: 0 .6em;
+        cursor: pointer;
+        font-size: 1.5em;
+}
+
+.btn-send {
+        width: 25px;
+        display: block;
+}
+
+textarea:focus {
+        outline: none;
+}
