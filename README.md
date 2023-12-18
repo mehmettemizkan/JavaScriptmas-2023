@@ -221,4 +221,12 @@ Use AI to generate a one-line Christmas joke. <br>
 - Words should rotate in an infinite loop.
 - No JavaScript.
 
-![Day 17 Word Carousel](https://github.com/mehmettemizkan/JavaScriptmas-2023/assets/56386597/5ff3c4f8-3496-42c1-90de-e2d250635b4c)
+![Day 17 Word Carousel](https://github.com/mehmettemizkan/JavaScriptmas-2023/assets/56386597/5ff3c4f8-3496-42c1-90de-e2d250635b4c)<br><br>
+
+## Day 18 AI Alt Text Generator
+### Challenge
+- Use AI to generate alt text for the image provided by generateImage().
+- Pass the alt text to renderImage() as a parameter.
+### Stretch Goals
+- Use a different AI provider.
+- Refactor this app so the message is als AI generated.
