@@ -1,7 +1,33 @@
 import JSConfetti from 'js-confetti'
-const word = 'santa'
+
+const wordsArray = [
+        "apple", "banana", "cherry", "orange", "grape",
+        "watermelon", "kiwi", "strawberry", "blueberry", "raspberry",
+        "pineapple", "mango", "peach", "plum", "apricot",
+        "blackberry", "pomegranate", "lemon", "lime", "avocado",
+        "pear", "melon", "fig", "date", "kiwi",
+        "coconut", "nectarine", "tangerine", "papaya", "passionfruit",
+        "guava", "cantaloupe", "dragonfruit", "persimmon", "starfruit",
+        "rhubarb", "boysenberry", "cranberry", "elderberry", "gooseberry",
+        "huckleberry", "loganberry", "mulberry", "olive", "peanut",
+        "almond", "cashew", "walnut", "pecan", "hazelnut",
+        "pistachio", "macadamia", "chestnut", "acorn", "pepper",
+        "cinnamon", "ginger", "turmeric", "cloves", "nutmeg",
+        "coriander", "cumin", "cardamom", "vanilla", "saffron",
+        "basil", "thyme", "rosemary", "oregano", "parsley",
+        "cilantro", "mint", "dill", "sage", "tarragon",
+        "lavender", "chives", "marjoram", "bay", "fennel",
+        "garlic", "onion", "shallot", "leek", "scallion",
+        "carrot", "potato", "sweetpotato", "beet", "turnip",
+        "radish", "rutabaga", "parsnip", "celery", "asparagus"
+];
+const randomIndex = Math.floor(Math.random() * wordsArray.length);
+
+const word = wordsArray[randomIndex]
+console.log(word)
 const wordArr = word.split('')
 const wordDisplay = document.getElementById('word-display')
+
 document.addEventListener('submit', handleGuess)
 
 function renderSpaces() {
@@ -19,27 +45,21 @@ function renderGuess(arr) {
         wordDisplay.innerHTML = wordHtml.join('')
 }
 
+let currentState = wordArr.map(() => '-')
 function handleGuess(e) {
         e.preventDefault()
-        /**
-         * Debug Challenge:
-         * 1. There are loads of problems with the 
-         *    code below. Find them and fix them!
-         **/
 
-        /* bugs begin 🦠*/
-        let currentState = []
-        let input = document.getElementById('users-input')
-        let guess = input.id
-        const guessArr = guess.split(' ')
-        wordArr.foreach((letter) => {
-                if (letter === guessArr['']) {
-                        currentState.push(letter)
-                } else {
-                        currentState.push(letter)
+        let input = document.getElementById('user-input')
+        let guess = input.value
+        const guessArr = guess.split('')
+        wordArr.forEach((letter, index) => {
+                if (currentState[index] === '-') {
+                        if (letter === guessArr[index]) {
+                                currentState[index] = letter
+                        }
                 }
         })
-        /* bugs end 🦠*/
+
         renderGuess(currentState)
         checkWin(guess)
         input.value = ''
