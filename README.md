@@ -248,3 +248,5 @@ Use AI to generate a one-line Christmas joke. <br>
 
 -   Work on the UX.
 -   Have the word selected randomly using AI or an API.
+
+![Day 19 Debug Jingle Words](https://github.com/mehmettemizkan/JavaScriptmas-2023/assets/56386597/393b1e77-59a0-418f-9064-b40b43b4790a)
