@@ -211,26 +211,40 @@ Use AI to generate a one-line Christmas joke. <br>
 -   Add the option to add new names to sorteesArr.
 -   Make it possible to switch people from one list to the other.
 
-
 ![Day 16 Naughty List Nice List](https://github.com/mehmettemizkan/JavaScriptmas-2023/assets/56386597/7b88a8f3-49c8-4af7-83f0-e40f844e9f76)<br><br>
 
 ## Day 17 Word Carousel
+
 ### Challenge
-- Match styles.
-- Personalize - display 4 things you love.
-- Words should rotate in an infinite loop.
-- No JavaScript.
+
+-   Match styles.
+-   Personalize - display 4 things you love.
+-   Words should rotate in an infinite loop.
+-   No JavaScript.
 
 ![Day 17 Word Carousel](https://github.com/mehmettemizkan/JavaScriptmas-2023/assets/56386597/5ff3c4f8-3496-42c1-90de-e2d250635b4c)<br><br>
 
 ## Day 18 AI Alt Text Generator
+
 ### Challenge
-- Use AI to generate alt text for the image provided by generateImage().
-- Pass the alt text to renderImage() as a parameter.
+
+-   Use AI to generate alt text for the image provided by generateImage().
+-   Pass the alt text to renderImage() as a parameter.
+
 ### Stretch Goals
-- Use a different AI provider.
-- Refactor this app so the message is als AI generated.
 
-![Day 18](https://github.com/mehmettemizkan/JavaScriptmas-2023/assets/56386597/2a8eb97b-e4e4-4d34-8c06-c227ced563dd)<br><br>
+-   Use a different AI provider.
+-   Refactor this app so the message is als AI generated.
 
+![Day 18 AI Alt Text Generator](https://github.com/mehmettemizkan/JavaScriptmas-2023/assets/56386597/2a8eb97b-e4e4-4d34-8c06-c227ced563dd)<br><br>
 
+## Day 19 Debug Jingle Words
+
+### Debug Challenge
+
+-   There are loads of problems with the code JS. Find them and fix them!
+
+### Stretch Goals
+
+-   Work on the UX.
+-   Have the word selected randomly using AI or an API.

@@ -1,5 +1,5 @@
 import { HfInference } from '@huggingface/inference'
-const hf = new HfInference()
+const hf = new HfInference() // you have to enter the hf token here
 import { blobToBase64 } from '/utils'
 
 const dialogModal = document.getElementById('dialog-modal')
@@ -10,8 +10,6 @@ document.addEventListener('submit', function (e) {
         const imageDescription = document.getElementById('user-input').value
         dialogModal.close()
         generateImage(imageDescription)
-
-
 })
 
 async function generateImage(imageToGenerate) {
@@ -34,7 +32,6 @@ async function generateAltText(imageUrl) {
 }
 
 const renderImage = (imageUrl, altText) => {
-
         const imageContainer = document.getElementById('image-container')
         imageContainer.innerHTML = ''
         const image = document.createElement('img')
