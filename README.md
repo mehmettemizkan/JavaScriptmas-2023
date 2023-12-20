@@ -261,3 +261,5 @@ Use AI to generate a one-line Christmas joke. <br>
 ### Stretch Goals
 
 -   Hard mode: leave the original array structure in-tact
+
+![Day 20 Save Santa](https://github.com/mehmettemizkan/JavaScriptmas-2023/assets/56386597/63a52d17-be7a-4193-a2bd-4a415db5df46)
