@@ -262,4 +262,28 @@ Use AI to generate a one-line Christmas joke. <br>
 
 -   Hard mode: leave the original array structure in-tact
 
-![Day 20 Save Santa](https://github.com/mehmettemizkan/JavaScriptmas-2023/assets/56386597/63a52d17-be7a-4193-a2bd-4a415db5df46)
+![Day 20 Save Santa](https://github.com/mehmettemizkan/JavaScriptmas-2023/assets/56386597/63a52d17-be7a-4193-a2bd-4a415db5df46)<br><br>
+
+## Day 21 Expanding Search Bar
+
+### Requirements
+
+-   Search Input
+    -   Takes up 1/3 of the width of its container.
+-   When the user clicks into the search bar:
+    -   Input grows to entire width of its parent container width smooth transition.
+    -   Shrinks back to original size when user clicks away.
+    -   Blue border.
+    -   **Bonus:** placeholder text is not visible when user clicks inside the search bar.
+-   Accessibility
+    -   For accessibility, form inputs should always have a label. Create a label with a valid **for** attribute.
+    -   Look up some CSS rules (no need to write it yourself) that hide search input's label visually but keeps it accessible to screen readers.
+
+#### Hints and Help
+
+-   Use a transition to make sure the search bar expands smoothly.
+
+#### What to Research
+
+-   The **:focus** pseudo selector.
+-   A pseudo selector that lets you change placeholder styles.

@@ -1,0 +1,10 @@
+html,
+body {
+        margin: 0;
+        padding: 0;
+}
+
+:root {
+        --search-border: #bbb;
+        --search-focus-border: #3a71ca;
+}
