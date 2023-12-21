@@ -287,3 +287,5 @@ Use AI to generate a one-line Christmas joke. <br>
 
 -   The **:focus** pseudo selector.
 -   A pseudo selector that lets you change placeholder styles.
+
+![Day 21 Expanding Search Bar](https://github.com/mehmettemizkan/JavaScriptmas-2023/assets/56386597/0ed2b9a8-c4cf-4fe8-a506-2c6591867ab5)
