@@ -1,0 +1,92 @@
+html,
+body {
+        margin: 0;
+        padding: 0;
+        font-family: 'Rubik', sans-serif;
+        background-color: #5C141B;
+        color: #432000;
+        user-select: none;
+}
+
+.container {
+        display: flex;
+        flex-direction: column;
+        max-width: 320px;
+        margin: 30px auto;
+        row-gap: 10px;
+}
+
+h1 {
+        margin: 0;
+        color: #FDFDFD;
+        text-align: center;
+}
+
+img {
+        width: 150px;
+        margin: 0 auto;
+}
+
+input {
+        color: #FDFDFD;
+        background-color: #3A0F13;
+        border: 0;
+        padding: 15px;
+        border-radius: 8px;
+        font-size: 20px;
+        text-align: center;
+        font-family: 'Rubik', sans-serif;
+        margin: 10px 0;
+}
+
+.input-fields {
+        display: flex;
+        column-gap: 10px;
+}
+
+#add-button {
+        height: 50px;
+        width: 50px;
+        text-align: center;
+        margin: 10px 0;
+}
+
+button {
+        color: #FDFDFD;
+        background-color: #AB1D2B;
+        border: 0;
+        padding: 15px;
+        border-radius: 8px;
+        font-size: 20px;
+        text-align: center;
+        font-family: 'Rubik', sans-serif;
+}
+
+button:hover {
+        background-color: #432000;
+        cursor: pointer;
+}
+
+ul {
+        list-style-type: none;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        row-gap: 10px;
+}
+
+ul li {
+        font-size: 20px;
+        background-color: #AB1D2B;
+        color: #FDFDFD;
+        padding: 15px;
+        border-radius: 8px;
+        flex-grow: 1;
+        text-align: center;
+        box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.2)
+}
+
+ul li:hover {
+        background-color: #E33D52;
+        cursor: pointer;
+}

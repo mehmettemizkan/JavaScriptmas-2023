@@ -288,4 +288,18 @@ Use AI to generate a one-line Christmas joke. <br>
 -   The **:focus** pseudo selector.
 -   A pseudo selector that lets you change placeholder styles.
 
-![Day 21 Expanding Search Bar](https://github.com/mehmettemizkan/JavaScriptmas-2023/assets/56386597/0ed2b9a8-c4cf-4fe8-a506-2c6591867ab5)
+![Day 21 Expanding Search Bar](https://github.com/mehmettemizkan/JavaScriptmas-2023/assets/56386597/0ed2b9a8-c4cf-4fe8-a506-2c6591867ab5)<br><br>
+
+## Day 22 Gift App
+
+### Challenge
+
+-   We have a gift app. All information disappears when the page refreshes. Make it so that the data doesn't disappear on reload.
+-   Use localStorage.
+
+### Stretch Goals
+
+-   Save the data using Firebase
+    -   Realtime Database
+    -   Cloud Firestore
+-   Play GIF after gift bought.
