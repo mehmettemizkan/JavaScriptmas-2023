@@ -76,6 +76,7 @@ ul {
         display: flex;
         flex-direction: column;
         row-gap: 10px;
+        color: white;
 }
 
 ul li {
