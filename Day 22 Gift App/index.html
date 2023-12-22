@@ -12,16 +12,17 @@
 
 <body>
         <div class="container">
-                <img src="icon.png">
-                <h1>Gift App</h1>
+                <img id="topImage" src="icon.png" alt="">
+                <img id="topGif" src="gift.gif" style="display: none;">
+                <h1 id="topHeader">Gift App</h1>
                 <div class="input-fields">
-                        <input type="text" id="input-field" placeholder="Frode">
+                        <input type="text" id="input-field" placeholder="Add People">
                         <button id="add-button">→</button>
                 </div>
                 <ul id="people-list">
                 </ul>
         </div>
-        <script src="index.js"></script>
+        <script src="index.js" type="module"></script>
 </body>
 
 </html>

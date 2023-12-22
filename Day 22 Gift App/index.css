@@ -14,6 +14,9 @@ body {
         max-width: 320px;
         margin: 30px auto;
         row-gap: 10px;
+        border: 3px solid white;
+        border-radius: 8px;
+        padding: 5%;
 }
 
 h1 {
@@ -89,4 +92,35 @@ ul li {
 ul li:hover {
         background-color: #E33D52;
         cursor: pointer;
+}
+
+.topHeader {
+        animation: blink 1.5s infinite;
+}
+
+@keyframes blink {
+        0% {
+                opacity: 1;
+                color: red;
+        }
+
+        25% {
+                opacity: 0;
+                color: orange;
+        }
+
+        50% {
+                opacity: 1;
+                color: magenta;
+        }
+
+        75% {
+                opacity: 0;
+                color: orange;
+        }
+
+        100% {
+                opacity: 1;
+                color: red;
+        }
 }
