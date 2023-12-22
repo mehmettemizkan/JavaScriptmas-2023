@@ -303,3 +303,5 @@ Use AI to generate a one-line Christmas joke. <br>
     -   Realtime Database
     -   Cloud Firestore
 -   Play GIF after gift bought.
+
+![Day 22 Gift App](https://github.com/mehmettemizkan/JavaScriptmas-2023/assets/56386597/1c54db6c-a9f9-4094-b0a8-5acfde2ab606)
