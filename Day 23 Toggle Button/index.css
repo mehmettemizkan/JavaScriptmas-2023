@@ -1,0 +1,11 @@
+html,
+body {
+        margin: 0;
+        padding: 0;
+}
+
+:root {
+        --toggle-switch-bg: #232428;
+        --toggle-border: #232428;
+        --toggle-bg: #fff;
+}

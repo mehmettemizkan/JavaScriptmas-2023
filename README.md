@@ -305,3 +305,12 @@ Use AI to generate a one-line Christmas joke. <br>
 -   Play GIF after gift bought.
 
 ![Day 22 Gift App](https://github.com/mehmettemizkan/JavaScriptmas-2023/assets/56386597/1c54db6c-a9f9-4094-b0a8-5acfde2ab606)
+
+## Day 23 Toggle Button
+
+### Challenge
+
+-   On click, toggle switch moves from one side to another.
+-   Cursor becomes a pointer.
+-   Match styles.
+-   No javascript!
