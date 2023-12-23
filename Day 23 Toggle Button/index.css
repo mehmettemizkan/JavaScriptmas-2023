@@ -1,11 +1,95 @@
-html,
 body {
+        height: 100vh;
+        background-image: linear-gradient(45deg, #555 10%, #888 90%);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        overflow: hidden;
         margin: 0;
-        padding: 0;
 }
 
-:root {
-        --toggle-switch-bg: #232428;
-        --toggle-border: #232428;
-        --toggle-bg: #fff;
+.plate {
+        position: fixed;
+        left: 50%;
+        top: 50%;
+        width: 100vw;
+        height: 0;
+        padding-bottom: 100%;
+        border-radius: 50%;
+        transform: translate(-50%, -50%) rotate(0) scale(2);
+        z-index: -1;
+        background-image: repeating-conic-gradient(from 45deg at 50% 50%,
+                        #ff6666 0deg 10deg,
+                        #ff4d4d 10deg 20deg,
+                        #ff3333 20deg 30deg);
+        visibility: hidden;
+        opacity: 0;
+        transition: opacity 240ms, visibility 0s;
+        animation: rotateScale 10s linear infinite;
+}
+
+@keyframes rotateScale {
+        to {
+                transform: translate(-50%, -50%) rotate(360deg) scale(2);
+        }
+}
+
+input[type="checkbox"] {
+        display: none;
+
+        ~label {
+                position: relative;
+                display: block;
+                width: 140px;
+                height: 72px;
+                border-radius: 40px;
+                border: 4px solid #333;
+                /* Siyah renkli çerçeve */
+                transition: transform 200ms cubic-bezier(0.41, -0.01, 0.63, 1.09);
+                cursor: pointer;
+                background: rgba(0, 0, 0, 0.5);
+                /* Yarı saydam siyah arkaplan */
+
+                &::before,
+                &::after {
+                        position: absolute;
+                        top: 2px;
+                        left: 2px;
+                        width: 68px;
+                        height: 68px;
+                        border-radius: 36px;
+                        content: "";
+                        transition: all 220ms cubic-bezier(0.76, 0.01, 0.15, 0.97);
+                }
+
+                &::before {
+                        background-image: linear-gradient(45deg, rgb(148, 39, 0) 10%, rgb(97, 5, 4) 90%);
+                }
+
+                &::after {
+                        background-color: #999;
+                }
+        }
+
+        &:checked~label {
+                border: 4px solid #fff;
+                transform: scale(1.01);
+                box-shadow: 0 0 120px 10px #9f9;
+                border-color: #000;
+
+                &::before {
+                        width: 136px;
+                }
+
+                &::after {
+                        transform: translateX(68px);
+                        background-color: rgb(50, 1, 0);
+                        box-shadow: -4px 0 4px rgba(0, 0, 0, 0.1);
+                }
+        }
+
+        &:checked~.plate {
+                opacity: 1;
+                visibility: visible;
+        }
 }
