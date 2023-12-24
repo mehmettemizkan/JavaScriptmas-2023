@@ -304,7 +304,7 @@ Use AI to generate a one-line Christmas joke. <br>
     -   Cloud Firestore
 -   Play GIF after gift bought.
 
-![Day 22 Gift App](https://github.com/mehmettemizkan/JavaScriptmas-2023/assets/56386597/1c54db6c-a9f9-4094-b0a8-5acfde2ab606)
+![Day 22 Gift App](https://github.com/mehmettemizkan/JavaScriptmas-2023/assets/56386597/1c54db6c-a9f9-4094-b0a8-5acfde2ab606)<br><br>
 
 ## Day 23 Toggle Button
 
@@ -315,4 +315,14 @@ Use AI to generate a one-line Christmas joke. <br>
 -   Match styles.
 -   No javascript!
 
-![Day 23 Toggle Button](https://github.com/mehmettemizkan/JavaScriptmas-2023/assets/56386597/930f960f-e184-421d-bff1-2f93a91bd131)
+![Day 23 Toggle Button](https://github.com/mehmettemizkan/JavaScriptmas-2023/assets/56386597/930f960f-e184-421d-bff1-2f93a91bd131)<br><br>
+
+## Day 24 Christmas Tree Lights
+
+### Challenge
+
+-   Make the Christmas tree lights flash on and off every 800 miliseconds on a permanent loop.
+
+### Stretch Goals
+
+-   Make the blue and red lights toggle on and off alternately. So first the red lights comes on, and then as they go off, blue lights come on.
