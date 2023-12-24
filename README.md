@@ -326,3 +326,5 @@ Use AI to generate a one-line Christmas joke. <br>
 ### Stretch Goals
 
 -   Make the blue and red lights toggle on and off alternately. So first the red lights comes on, and then as they go off, blue lights come on.
+
+![Day 24 Christmas Tree Lights](https://github.com/mehmettemizkan/JavaScriptmas-2023/assets/56386597/b720dfda-b7cd-4f87-9c9c-a04905405181)
