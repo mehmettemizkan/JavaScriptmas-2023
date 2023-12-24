@@ -314,3 +314,5 @@ Use AI to generate a one-line Christmas joke. <br>
 -   Cursor becomes a pointer.
 -   Match styles.
 -   No javascript!
+
+![Day 23 Toggle Button](https://github.com/mehmettemizkan/JavaScriptmas-2023/assets/56386597/930f960f-e184-421d-bff1-2f93a91bd131)
